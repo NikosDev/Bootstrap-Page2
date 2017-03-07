@@ -1,0 +1,179 @@
+/* General */
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    position: relative;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Jumbotron-Navbar */
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-brand{
+    padding-bottom: 20px !important;
+}
+
+.jumbotron{
+    background-color: #f4511e;
+    color: #fff;
+    padding:74px !important;
+}
+
+body > nav > a {
+    padding-bottom: 24px !important;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 17px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+body > nav{
+    padding-top:0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navbar-brand{
+    font-size: 20px !important;
+    padding-top: 0px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+    border-radius: 0;
+}
+
+#navbarTogglerDemo02 > ul > li a{
+    padding:15px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.container-fluid {
+    padding:60px;
+    /* padding: 60px 50px; */
+}
+
+
+/* Main Content */
+#eikona{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#eikonas{
+    max-width:200px !important;
+    max-height:200px !important;
+}
+
+.icon1{
+    max-width:50px !important;
+    max-height:50px !important;
+    margin:10px;
+}
+
+img.card-img-top.img-fluid{
+    min-height: 262px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-4 {
+        text-align: center;
+        margin: 50px 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .jumbotron {
+        padding-top:80px;
+    }
+}
+
+
+/* Portfolio */
+h3.card-header.text-center{
+    background-color: #f4511e !important;
+    color: white;
+    padding: 30px;
+    border-radius: 0;
+}
+
+.card-footer.text-center{
+border: solid 0.2px #f4511e;
+}
+
+.card-footer{
+    background-color: white;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #f4511e;
+    border-color: #ffc4a8;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color:#f4511e;
+}
+
+body > div:nth-child(7) > div.row > div.col-sm-4 > div.card{
+    border: 1px solid #f4511e;
+    border-bottom-style: none;
+    border-radius: 0 !important;
+}
+
+ div.row > .col-sm-4{
+    margin-bottom: 10px !important;
+}
+
+#contact > div > div.col-sm-7 > form > div:nth-child(2) > div > div{
+    margin-bottom: 0 !important ;
+}
+
+#footer-space{
+    padding:30px !important;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
+    color: #f4511e !important;
+    cursor: default;
+    background-color: white !important;
+    border-radius: 0;
+}
